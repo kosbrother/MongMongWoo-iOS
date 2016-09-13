@@ -14,6 +14,7 @@
 		CB0CEC021D76B6B000308DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0CEC011D76B6B000308DE7 /* Assets.xcassets */; };
 		CB0CEC051D76B6B000308DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0CEC031D76B6B000308DE7 /* LaunchScreen.storyboard */; };
 		CB0CEC101D76B6B000308DE7 /* mongmongwooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CEC0F1D76B6B000308DE7 /* mongmongwooTests.swift */; };
+		CB19BA0E1D88178D003E8091 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CB19BA0D1D88178D003E8091 /* .gitignore */; };
 		CB7686DF1D82B08A0076425B /* UrlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7686DE1D82B08A0076425B /* UrlImageView.swift */; };
 		CB9050651D83AB4E006A7120 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9050641D83AB4E006A7120 /* DataProvider.swift */; };
 		CB9050691D83BE16006A7120 /* ItemsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9050681D83BE16006A7120 /* ItemsResponse.swift */; };
@@ -62,6 +63,7 @@
 		CB0CEC0B1D76B6B000308DE7 /* mongmongwooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mongmongwooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0CEC0F1D76B6B000308DE7 /* mongmongwooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mongmongwooTests.swift; sourceTree = "<group>"; };
 		CB0CEC111D76B6B000308DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB19BA0D1D88178D003E8091 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		CB7686DE1D82B08A0076425B /* UrlImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlImageView.swift; sourceTree = "<group>"; };
 		CB9050641D83AB4E006A7120 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		CB9050681D83BE16006A7120 /* ItemsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsResponse.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		CB0CEBEC1D76B6B000308DE7 = {
 			isa = PBXGroup;
 			children = (
+				CB19BA0D1D88178D003E8091 /* .gitignore */,
 				CBFFF4E51D78215400286241 /* Cartfile */,
 				CB0CEBF71D76B6B000308DE7 /* mongmongwoo */,
 				CB0CEC0E1D76B6B000308DE7 /* mongmongwooTests */,
@@ -276,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB19BA0E1D88178D003E8091 /* .gitignore in Resources */,
 				CB0CEC051D76B6B000308DE7 /* LaunchScreen.storyboard in Resources */,
 				CB0CEC021D76B6B000308DE7 /* Assets.xcassets in Resources */,
 				CBFFF4E61D78215400286241 /* Cartfile in Resources */,
