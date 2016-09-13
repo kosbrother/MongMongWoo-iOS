@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		CB0CEBF91D76B6B000308DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CEBF81D76B6B000308DE7 /* AppDelegate.swift */; };
-		CB0CEBFB1D76B6B000308DE7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CEBFA1D76B6B000308DE7 /* FirstViewController.swift */; };
-		CB0CEBFD1D76B6B000308DE7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CEBFC1D76B6B000308DE7 /* SecondViewController.swift */; };
+		CB0CEBFB1D76B6B000308DE7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CEBFA1D76B6B000308DE7 /* HomeViewController.swift */; };
+		CB0CEBFD1D76B6B000308DE7 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CEBFC1D76B6B000308DE7 /* CategoryViewController.swift */; };
 		CB0CEC001D76B6B000308DE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0CEBFE1D76B6B000308DE7 /* Main.storyboard */; };
 		CB0CEC021D76B6B000308DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0CEC011D76B6B000308DE7 /* Assets.xcassets */; };
 		CB0CEC051D76B6B000308DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0CEC031D76B6B000308DE7 /* LaunchScreen.storyboard */; };
 		CB0CEC101D76B6B000308DE7 /* mongmongwooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CEC0F1D76B6B000308DE7 /* mongmongwooTests.swift */; };
+		CB7686DF1D82B08A0076425B /* UrlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7686DE1D82B08A0076425B /* UrlImageView.swift */; };
+		CB9050651D83AB4E006A7120 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9050641D83AB4E006A7120 /* DataProvider.swift */; };
+		CB9050691D83BE16006A7120 /* ItemsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9050681D83BE16006A7120 /* ItemsResponse.swift */; };
+		CB90506F1D83FA74006A7120 /* ItemCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB90506E1D83FA74006A7120 /* ItemCollectionViewController.swift */; };
+		CB9050711D862750006A7120 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9050701D862750006A7120 /* ItemCollectionViewCell.swift */; };
+		CB9050741D869C58006A7120 /* HomeHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9050731D869C58006A7120 /* HomeHeaderCollectionReusableView.swift */; };
+		CB90507B1D880C75006A7120 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB90507A1D880C75006A7120 /* AccountViewController.swift */; };
+		CB90507D1D880C8A006A7120 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB90507C1D880C8A006A7120 /* NotificationViewController.swift */; };
+		CBA6EF261D8157C200567200 /* BannerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA6EF251D8157C200567200 /* BannerResponse.swift */; };
+		CBEA9FF41D782AEE00B4D43A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA9FF31D782AEE00B4D43A /* Error.swift */; };
+		CBFFF4E61D78215400286241 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = CBFFF4E51D78215400286241 /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,11 +37,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CB56EFF61D8294D500FFA2B0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		CB0CEBF51D76B6B000308DE7 /* mongmongwoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mongmongwoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0CEBF81D76B6B000308DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB0CEBFA1D76B6B000308DE7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		CB0CEBFC1D76B6B000308DE7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CB0CEBFA1D76B6B000308DE7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CB0CEBFC1D76B6B000308DE7 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		CB0CEBFF1D76B6B000308DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB0CEC011D76B6B000308DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB0CEC041D76B6B000308DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +62,17 @@
 		CB0CEC0B1D76B6B000308DE7 /* mongmongwooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mongmongwooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0CEC0F1D76B6B000308DE7 /* mongmongwooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mongmongwooTests.swift; sourceTree = "<group>"; };
 		CB0CEC111D76B6B000308DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7686DE1D82B08A0076425B /* UrlImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlImageView.swift; sourceTree = "<group>"; };
+		CB9050641D83AB4E006A7120 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		CB9050681D83BE16006A7120 /* ItemsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsResponse.swift; sourceTree = "<group>"; };
+		CB90506E1D83FA74006A7120 /* ItemCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewController.swift; sourceTree = "<group>"; };
+		CB9050701D862750006A7120 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		CB9050731D869C58006A7120 /* HomeHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		CB90507A1D880C75006A7120 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		CB90507C1D880C8A006A7120 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		CBA6EF251D8157C200567200 /* BannerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerResponse.swift; sourceTree = "<group>"; };
+		CBEA9FF31D782AEE00B4D43A /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		CBFFF4E51D78215400286241 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +96,7 @@
 		CB0CEBEC1D76B6B000308DE7 = {
 			isa = PBXGroup;
 			children = (
+				CBFFF4E51D78215400286241 /* Cartfile */,
 				CB0CEBF71D76B6B000308DE7 /* mongmongwoo */,
 				CB0CEC0E1D76B6B000308DE7 /* mongmongwooTests */,
 				CB0CEBF61D76B6B000308DE7 /* Products */,
@@ -79,13 +115,18 @@
 		CB0CEBF71D76B6B000308DE7 /* mongmongwoo */ = {
 			isa = PBXGroup;
 			children = (
-				CB0CEBF81D76B6B000308DE7 /* AppDelegate.swift */,
-				CB0CEBFA1D76B6B000308DE7 /* FirstViewController.swift */,
-				CB0CEBFC1D76B6B000308DE7 /* SecondViewController.swift */,
-				CB0CEBFE1D76B6B000308DE7 /* Main.storyboard */,
-				CB0CEC011D76B6B000308DE7 /* Assets.xcassets */,
-				CB0CEC031D76B6B000308DE7 /* LaunchScreen.storyboard */,
 				CB0CEC061D76B6B000308DE7 /* Info.plist */,
+				CB0CEBF81D76B6B000308DE7 /* AppDelegate.swift */,
+				CB9050641D83AB4E006A7120 /* DataProvider.swift */,
+				CB0CEC011D76B6B000308DE7 /* Assets.xcassets */,
+				CB9050791D880BF6006A7120 /* account */,
+				CB9050771D880B54006A7120 /* category */,
+				CB0CEC3E1D77CDB500308DE7 /* entity */,
+				CB9050721D869AF7006A7120 /* home */,
+				CB0CEC031D76B6B000308DE7 /* LaunchScreen.storyboard */,
+				CB0CEBFE1D76B6B000308DE7 /* Main.storyboard */,
+				CB9050781D880BDD006A7120 /* notification */,
+				CB7686DD1D82B06A0076425B /* widget */,
 			);
 			path = mongmongwoo;
 			sourceTree = "<group>";
@@ -99,6 +140,59 @@
 			path = mongmongwooTests;
 			sourceTree = "<group>";
 		};
+		CB0CEC3E1D77CDB500308DE7 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				CBEA9FF31D782AEE00B4D43A /* Error.swift */,
+				CBA6EF251D8157C200567200 /* BannerResponse.swift */,
+				CB9050681D83BE16006A7120 /* ItemsResponse.swift */,
+			);
+			name = entity;
+			sourceTree = "<group>";
+		};
+		CB7686DD1D82B06A0076425B /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				CB7686DE1D82B08A0076425B /* UrlImageView.swift */,
+			);
+			name = widget;
+			sourceTree = "<group>";
+		};
+		CB9050721D869AF7006A7120 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				CB0CEBFA1D76B6B000308DE7 /* HomeViewController.swift */,
+				CB90506E1D83FA74006A7120 /* ItemCollectionViewController.swift */,
+				CB9050701D862750006A7120 /* ItemCollectionViewCell.swift */,
+				CB9050731D869C58006A7120 /* HomeHeaderCollectionReusableView.swift */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		CB9050771D880B54006A7120 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				CB0CEBFC1D76B6B000308DE7 /* CategoryViewController.swift */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
+		CB9050781D880BDD006A7120 /* notification */ = {
+			isa = PBXGroup;
+			children = (
+				CB90507C1D880C8A006A7120 /* NotificationViewController.swift */,
+			);
+			name = notification;
+			sourceTree = "<group>";
+		};
+		CB9050791D880BF6006A7120 /* account */ = {
+			isa = PBXGroup;
+			children = (
+				CB90507A1D880C75006A7120 /* AccountViewController.swift */,
+			);
+			name = account;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,6 +203,8 @@
 				CB0CEBF11D76B6B000308DE7 /* Sources */,
 				CB0CEBF21D76B6B000308DE7 /* Frameworks */,
 				CB0CEBF31D76B6B000308DE7 /* Resources */,
+				CB56EFF61D8294D500FFA2B0 /* Embed Frameworks */,
+				CB7686DA1D8299180076425B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -182,6 +278,7 @@
 			files = (
 				CB0CEC051D76B6B000308DE7 /* LaunchScreen.storyboard in Resources */,
 				CB0CEC021D76B6B000308DE7 /* Assets.xcassets in Resources */,
+				CBFFF4E61D78215400286241 /* Cartfile in Resources */,
 				CB0CEC001D76B6B000308DE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,14 +292,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CB7686DA1D8299180076425B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB0CEBF11D76B6B000308DE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB0CEBFD1D76B6B000308DE7 /* SecondViewController.swift in Sources */,
+				CB9050741D869C58006A7120 /* HomeHeaderCollectionReusableView.swift in Sources */,
+				CB9050711D862750006A7120 /* ItemCollectionViewCell.swift in Sources */,
+				CB90507B1D880C75006A7120 /* AccountViewController.swift in Sources */,
+				CB0CEBFD1D76B6B000308DE7 /* CategoryViewController.swift in Sources */,
+				CB9050651D83AB4E006A7120 /* DataProvider.swift in Sources */,
+				CBA6EF261D8157C200567200 /* BannerResponse.swift in Sources */,
+				CB9050691D83BE16006A7120 /* ItemsResponse.swift in Sources */,
 				CB0CEBF91D76B6B000308DE7 /* AppDelegate.swift in Sources */,
-				CB0CEBFB1D76B6B000308DE7 /* FirstViewController.swift in Sources */,
+				CBEA9FF41D782AEE00B4D43A /* Error.swift in Sources */,
+				CB90507D1D880C8A006A7120 /* NotificationViewController.swift in Sources */,
+				CB0CEBFB1D76B6B000308DE7 /* HomeViewController.swift in Sources */,
+				CB90506F1D83FA74006A7120 /* ItemCollectionViewController.swift in Sources */,
+				CB7686DF1D82B08A0076425B /* UrlImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +459,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = mongmongwoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kosbrother.mongmongwoo;
@@ -344,6 +474,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = mongmongwoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kosbrother.mongmongwoo;
@@ -394,6 +528,7 @@
 				CB0CEC161D76B6B000308DE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB0CEC171D76B6B000308DE7 /* Build configuration list for PBXNativeTarget "mongmongwooTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +537,7 @@
 				CB0CEC191D76B6B000308DE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
