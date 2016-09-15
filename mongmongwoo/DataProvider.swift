@@ -41,7 +41,7 @@ class DataProvider: NSObject {
     }
     
     func getCategorySortItems(categoryName:String, sortName:String,page:Int,onCompletion:GetCategorySortItemsResponse){
-        var test = categoryName.stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())
+        let test = categoryName.stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())
         let url = BASE_URL + "api/v3/categories/"+(test!)+"/items"+"?sort="+sortName+"&page="+String(page)
         print(url)
         Alamofire.request(.GET, url)
