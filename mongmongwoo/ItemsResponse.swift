@@ -58,10 +58,17 @@ class Item: Mappable {
     }
     
     func getOriginPriceText() -> String {
-        if(specialPrice==nil||specialPrice==0){
+        if specialPrice==nil||specialPrice==0 {
             return " "
         }
-        return "NT$ \(price!)"
+        return "原價NT$ \(price!)"
+    }
+    
+    func isSpecialPriceItem() -> Bool {
+        if specialPrice==nil||specialPrice==0 {
+            return false
+        }
+        return true
     }
 }
 

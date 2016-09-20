@@ -16,9 +16,9 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     var headerView : HomeHeaderCollectionReusableView!
     
     let reuseIdentifier = "cell" // also enter this string as the cell identifier in the storyboard
-    var popularItems : [Item] = []
-    var newItems : [Item] = []
-    var displayItems : [Item] = []
+    var popularItems = [Item]()
+    var newItems = [Item]()
+    var displayItems = [Item]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,7 +48,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
         flow.sectionInset = UIEdgeInsetsMake(0, 8, 0,8)
         let width = UIScreen.mainScreen().bounds.size.width-24
         flow.itemSize.width = width*0.5
-        flow.itemSize.height = itemCollectionView.collectionViewLayout.collectionViewContentSize().height
+//        flow.itemSize.height = itemCollectionView.collectionViewLayout.collectionViewContentSize().height 
         flow.minimumInteritemSpacing = 8
         flow.minimumLineSpacing = 8
 }
@@ -68,23 +68,23 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     // make a cell for each cell index path
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! ItemCollectionViewCell
-        let layer = cell.layer
-        layer.borderColor = UIColor(red: 242, green: 242, blue: 242, alpha: 1).CGColor
-        layer.borderWidth = 1
-        layer.cornerRadius = 2
         
-        layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.12).CGColor
-        layer.shadowOffset = CGSize(width: 1,height: 1)
-        layer.shadowOpacity = 1
-        layer.shadowRadius = 2
-        layer.shadowPath = UIBezierPath(rect: cell.bounds).CGPath
+        cell.layer.borderColor = UIColor(red: 242, green: 242, blue: 242, alpha: 1).CGColor
+        cell.layer.borderWidth = 1;
+        cell.layer.contentsScale = UIScreen.mainScreen().scale;
+        cell.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.12).CGColor
+        cell.layer.shadowOpacity = 1;
+        cell.layer.shadowRadius = 2.1;
+        cell.layer.shadowOffset = CGSize(width: 1,height: 1);
+        cell.layer.shadowPath =  UIBezierPath(rect: cell.bounds).CGPath
+        cell.layer.shouldRasterize = true
         
         let item = self.displayItems[indexPath.item]
         cell.nameLabel.text = item.name
         cell.originalPriceLabel.text = item.getOriginPriceText()
         cell.finalPriceLabel.text = item.getFinalPriceText()
         cell.itemImageView.imageFromUrl(item.cover!.url!)
-        
+        cell.specialItemImageView.hidden = !item.isSpecialPriceItem()
         return cell
     }
     

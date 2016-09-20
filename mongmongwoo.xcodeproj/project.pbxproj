@@ -15,6 +15,7 @@
 		CB0CEC051D76B6B000308DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0CEC031D76B6B000308DE7 /* LaunchScreen.storyboard */; };
 		CB0CEC101D76B6B000308DE7 /* mongmongwooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CEC0F1D76B6B000308DE7 /* mongmongwooTests.swift */; };
 		CB19BA0E1D88178D003E8091 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CB19BA0D1D88178D003E8091 /* .gitignore */; };
+		CB6554331D9129B70072AAC8 /* ImageRightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6554321D9129B70072AAC8 /* ImageRightButton.swift */; };
 		CB7686DF1D82B08A0076425B /* UrlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7686DE1D82B08A0076425B /* UrlImageView.swift */; };
 		CB9050651D83AB4E006A7120 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9050641D83AB4E006A7120 /* DataProvider.swift */; };
 		CB9050691D83BE16006A7120 /* ItemsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9050681D83BE16006A7120 /* ItemsResponse.swift */; };
@@ -22,9 +23,14 @@
 		CB9050711D862750006A7120 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9050701D862750006A7120 /* ItemCollectionViewCell.swift */; };
 		CB9050741D869C58006A7120 /* HomeHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9050731D869C58006A7120 /* HomeHeaderCollectionReusableView.swift */; };
 		CB90507B1D880C75006A7120 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB90507A1D880C75006A7120 /* AccountViewController.swift */; };
-		CB90507D1D880C8A006A7120 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB90507C1D880C8A006A7120 /* NotificationViewController.swift */; };
+		CB91A2631D901223001DC771 /* NotificationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB91A2621D901223001DC771 /* NotificationsResponse.swift */; };
 		CBA6EF261D8157C200567200 /* BannerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA6EF251D8157C200567200 /* BannerResponse.swift */; };
 		CBEA9FF41D782AEE00B4D43A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA9FF31D782AEE00B4D43A /* Error.swift */; };
+		CBFB39971D8FCAB100326869 /* CenterImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFB39961D8FCAB100326869 /* CenterImageButton.swift */; };
+		CBFB39991D8FCC7800326869 /* LoginBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFB39981D8FCC7800326869 /* LoginBorderButton.swift */; };
+		CBFB399B1D8FDAD000326869 /* BottomShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFB399A1D8FDAD000326869 /* BottomShadowView.swift */; };
+		CBFB399D1D8FF92100326869 /* NotificationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFB399C1D8FF92100326869 /* NotificationTableViewController.swift */; };
+		CBFB399F1D90039D00326869 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFB399E1D90039D00326869 /* NotificationTableViewCell.swift */; };
 		CBFFF4E61D78215400286241 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = CBFFF4E51D78215400286241 /* Cartfile */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +70,7 @@
 		CB0CEC0F1D76B6B000308DE7 /* mongmongwooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mongmongwooTests.swift; sourceTree = "<group>"; };
 		CB0CEC111D76B6B000308DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB19BA0D1D88178D003E8091 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CB6554321D9129B70072AAC8 /* ImageRightButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRightButton.swift; sourceTree = "<group>"; };
 		CB7686DE1D82B08A0076425B /* UrlImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlImageView.swift; sourceTree = "<group>"; };
 		CB9050641D83AB4E006A7120 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		CB9050681D83BE16006A7120 /* ItemsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsResponse.swift; sourceTree = "<group>"; };
@@ -71,9 +78,14 @@
 		CB9050701D862750006A7120 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		CB9050731D869C58006A7120 /* HomeHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		CB90507A1D880C75006A7120 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
-		CB90507C1D880C8A006A7120 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		CB91A2621D901223001DC771 /* NotificationsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsResponse.swift; sourceTree = "<group>"; };
 		CBA6EF251D8157C200567200 /* BannerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerResponse.swift; sourceTree = "<group>"; };
 		CBEA9FF31D782AEE00B4D43A /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		CBFB39961D8FCAB100326869 /* CenterImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterImageButton.swift; sourceTree = "<group>"; };
+		CBFB39981D8FCC7800326869 /* LoginBorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginBorderButton.swift; sourceTree = "<group>"; };
+		CBFB399A1D8FDAD000326869 /* BottomShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomShadowView.swift; sourceTree = "<group>"; };
+		CBFB399C1D8FF92100326869 /* NotificationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewController.swift; sourceTree = "<group>"; };
+		CBFB399E1D90039D00326869 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
 		CBFFF4E51D78215400286241 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +161,7 @@
 				CBEA9FF31D782AEE00B4D43A /* Error.swift */,
 				CBA6EF251D8157C200567200 /* BannerResponse.swift */,
 				CB9050681D83BE16006A7120 /* ItemsResponse.swift */,
+				CB91A2621D901223001DC771 /* NotificationsResponse.swift */,
 			);
 			name = entity;
 			sourceTree = "<group>";
@@ -157,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				CB7686DE1D82B08A0076425B /* UrlImageView.swift */,
+				CB6554321D9129B70072AAC8 /* ImageRightButton.swift */,
 			);
 			name = widget;
 			sourceTree = "<group>";
@@ -183,7 +197,8 @@
 		CB9050781D880BDD006A7120 /* notification */ = {
 			isa = PBXGroup;
 			children = (
-				CB90507C1D880C8A006A7120 /* NotificationViewController.swift */,
+				CBFB399C1D8FF92100326869 /* NotificationTableViewController.swift */,
+				CBFB399E1D90039D00326869 /* NotificationTableViewCell.swift */,
 			);
 			name = notification;
 			sourceTree = "<group>";
@@ -192,6 +207,9 @@
 			isa = PBXGroup;
 			children = (
 				CB90507A1D880C75006A7120 /* AccountViewController.swift */,
+				CBFB39961D8FCAB100326869 /* CenterImageButton.swift */,
+				CBFB39981D8FCC7800326869 /* LoginBorderButton.swift */,
+				CBFB399A1D8FDAD000326869 /* BottomShadowView.swift */,
 			);
 			name = account;
 			sourceTree = "<group>";
@@ -322,18 +340,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBFB39991D8FCC7800326869 /* LoginBorderButton.swift in Sources */,
 				CB9050741D869C58006A7120 /* HomeHeaderCollectionReusableView.swift in Sources */,
 				CB9050711D862750006A7120 /* ItemCollectionViewCell.swift in Sources */,
 				CB90507B1D880C75006A7120 /* AccountViewController.swift in Sources */,
 				CB0CEBFD1D76B6B000308DE7 /* CategoryViewController.swift in Sources */,
 				CB9050651D83AB4E006A7120 /* DataProvider.swift in Sources */,
 				CBA6EF261D8157C200567200 /* BannerResponse.swift in Sources */,
+				CB6554331D9129B70072AAC8 /* ImageRightButton.swift in Sources */,
+				CB91A2631D901223001DC771 /* NotificationsResponse.swift in Sources */,
+				CBFB399F1D90039D00326869 /* NotificationTableViewCell.swift in Sources */,
+				CBFB399B1D8FDAD000326869 /* BottomShadowView.swift in Sources */,
 				CB9050691D83BE16006A7120 /* ItemsResponse.swift in Sources */,
 				CB0CEBF91D76B6B000308DE7 /* AppDelegate.swift in Sources */,
 				CBEA9FF41D782AEE00B4D43A /* Error.swift in Sources */,
-				CB90507D1D880C8A006A7120 /* NotificationViewController.swift in Sources */,
 				CB0CEBFB1D76B6B000308DE7 /* HomeViewController.swift in Sources */,
 				CB90506F1D83FA74006A7120 /* ItemCollectionViewController.swift in Sources */,
+				CBFB39971D8FCAB100326869 /* CenterImageButton.swift in Sources */,
+				CBFB399D1D8FF92100326869 /* NotificationTableViewController.swift in Sources */,
 				CB7686DF1D82B08A0076425B /* UrlImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +502,7 @@
 				);
 				INFOPLIST_FILE = mongmongwoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kosbrother.mongmongwoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 2.3;
@@ -494,6 +519,7 @@
 				);
 				INFOPLIST_FILE = mongmongwoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kosbrother.mongmongwoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 2.3;

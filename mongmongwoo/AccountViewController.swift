@@ -9,19 +9,47 @@
 import UIKit
 
 class AccountViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func loginAction(sender: UIButton) {
+        print("loginAction")
+    }
+    
+    @IBAction func shoppingPointsAction(sender: UIButton) {
+        print("shoppingPointsAction")
+    }
+    
+    @IBAction func ordersAction(sender: UIButton) {
+        print("ordersAction")
+    }
+    
+    @IBAction func favoriteAction(sender: UIButton) {
+        print("favoriteAction")
+    }
+    
+    @IBAction func stockAction(sender: UIButton) {
+        print("stockAction")
+    }
+    
+    @IBAction func customerServiceAction(sender: UIButton) {
+        print("customerServiceAction")
+    }
+    
+    @IBAction func shareAction(sender: UIButton) {
+        print("shareAction")
+    }
+    
+    @IBAction func logoutAction(sender: UIButton) {
+        print("logoutAction")
+    }
     /*
     // MARK: - Navigation
 

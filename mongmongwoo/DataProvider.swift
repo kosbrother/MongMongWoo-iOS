@@ -12,16 +12,16 @@ import ObjectMapper
 
 typealias GetBannerResponse = ([Banner], NSError?) -> Void
 typealias GetCategorySortItemsResponse = ([Item], NSError?) ->Void
+typealias GetNotificationsResponse = ([Notification], NSError?) ->Void
 
 class DataProvider: NSObject {
     
-//    #if DEBUG
-//        let BASE_URL = "http://104.199.129.36/"
-//    #else
-//        let BASE_URL = "https://www.mmwooo.com/"
-//    #endif
-    
+    #if NDEBUG
+    let BASE_URL = "https://www.mmwooo.com/"
+    #else
     let BASE_URL = "http://104.199.129.36/"
+    #endif
+    
     class var sharedInstance:DataProvider {
         struct Singleton {
             static let instance = DataProvider()
@@ -48,6 +48,18 @@ class DataProvider: NSObject {
             .responseJSON { response in
                 if let JSON = response.result.value {
                     let response = Mapper<ItemsResponse>().map(JSON)!
+                    onCompletion(response.data!,nil)
+                }
+        }
+    }
+    
+    func getNotifications(userId:Int,onCompletion:GetNotificationsResponse){
+        let url = BASE_URL + "api/v4/users/"+String(userId)+"/my_messages"
+        print(url)
+        Alamofire.request(.GET, url)
+            .responseJSON { response in
+                if let JSON = response.result.value {
+                    let response = Mapper<NotificaionsResponse>().map(JSON)!
                     onCompletion(response.data!,nil)
                 }
         }
